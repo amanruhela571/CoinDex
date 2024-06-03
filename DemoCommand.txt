@@ -1,0 +1,20 @@
+
+node .\bin\coindex.js 
+node .\bin\coindex.js -h
+
+node .\bin\coindex.js check
+node .\bin\coindex.js key
+
+node .\bin\coindex.js check price
+node .\bin\coindex.js check -h
+
+node .\bin\coindex.js key
+node .\bin\coindex.js key -h
+
+node .\bin\coindex.js key set
+node .\bin\coindex.js key show
+node .\bin\coindex.js key remove
+
+node .\bin\coindex.js check price 
+node .\bin\coindex.js check price --coin=BTC,ETH,pepe  --cur=INR
+node .\bin\coindex.js check price --coin=BTC,ETH,pepe  --cur=INR,USD
